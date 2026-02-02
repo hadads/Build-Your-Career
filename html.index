@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Build Your Career</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Build Your Career From Zero</h1>
+        <p>Learn skills. Gain experience. Get hired.</p>
+        <button onclick="showMessage()">Get Started</button>
+    </header>
+
+    <section class="features">
+        <div class="box">
+            <h2>Learn Skills</h2>
+            <p>Practice real projects and build confidence.</p>
+        </div>
+
+        <div class="box">
+            <h2>Build Projects</h2>
+            <p>Create portfolio-ready applications.</p>
+        </div>
+
+        <div class="box">
+            <h2>Get Hired</h2>
+            <p>Apply with confidence and clarity.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to start?</h2>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button onclick="personalize()">Join Now</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Career Builder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
